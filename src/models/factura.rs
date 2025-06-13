@@ -19,8 +19,8 @@ pub struct Cliente {
 pub struct Factura {
     pub cliente: Cliente,
     pub productos: Vec<Producto>,
-    pub impuestos: f64, // porcentaje, ej. 0.15 para 15%
-    pub descuento: f64, // porcentaje, ej. 0.10 para 10%
+    pub impuestos: f64, 
+    pub descuento: f64,
 }
 
 impl Factura {
